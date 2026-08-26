@@ -9,14 +9,17 @@ if (edad < 0) {
 }
 //ejercicio 2 - calcular litros consumidos
 
-let function totalapagar = (vehiculo, ltsconsumidos) {
-    let precioltr = 0;
-    switch (vehiculo) {
-        case "coche": precioltr = 86;
-            break;
-        case "moto": precioltr = 70;
-            break;
-        case "autobus": precioltr = 55;
-            break;
-    }
+function totalapagar(vehiculo, ltsconsumidos) {
+  let precioltr = 0;
+  switch (vehiculo) {
+    case "coche":
+      precioltr = 86;
+      break;
+    case "moto":
+      precioltr = 70;
+      break;
+    case "autobus":
+      precioltr = 55;
+      break;
+  }
 }
