@@ -8,10 +8,7 @@ if (edad < 0) {
   console.log("sabias que tu edad es impar");
 }
 //ejercicio 2 - calcular litros consumidos
-//declaro variable para los litros
-let ltsconsumidos = 15;
-//variable para vehiculo
-let vehiculo = "coche";
+
 //funcion totalapagar
 function totalapagar(vehiculo, ltsconsumidos) {
   let precioltr = 0;
@@ -37,12 +34,10 @@ function totalapagar(vehiculo, ltsconsumidos) {
   return total;
 }
 //se muestra
-console.log(totalapagar("coche", 20));
+console.log(totalapagar("coche", 35));
 
 //ejercicio 3 - local de sandwich
-//variables para parametros en string
-let base = " ";
-let pan = " ";
+
 //funcion que contiene string y cada dato boleano
 function totalsandwich(
   base,
