@@ -97,4 +97,14 @@ function totalsandwich(
 //lo muestra en consola
 console.log(totalsandwich("pollo", "sin gluten", "queso"));
 
-// ejercicio4 descubrir numero secreto
+// ejercicio-4 descubrir numero secreto
+function verificarnumesecreto(numelegido) {
+  let numsecreto = Math.floor(Math.random() * 10) + 1;
+  if (numelegido === numsecreto) {
+    return "Adivinaste!!!";
+  } else {
+    return `no son iguales, elegiste ${numelegido} y era ${numsecreto}`;
+  }
+}
+
+console.log(verificarnumesecreto(5));
